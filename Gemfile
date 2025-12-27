@@ -27,3 +27,10 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "base64", "~> 0.3.0"
+gem "bigdecimal", "~> 4.0"
+gem "mutex_m", "~> 0.3.0"
+gem "drb", "~> 2.2"
+
+gem "ostruct", "~> 0.6.3"
