@@ -14,7 +14,7 @@ selected_papers: true
 social: false
 ---
 
-[[Google Scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[GitHub]](https://github.com/shkimmie-umb?tab=repositories) [[LinkedIn]](YOUR_LINKEDIN_URL)
+[[Google Scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[GitHub]](https://github.com/shkimmie-umb?tab=repositories) [[LinkedIn]](https://www.linkedin.com/in/sanghyuk-kim-469687182/)
 
 I am a **Ph.D. Candidate** in Computer Science at the University of Massachusetts Boston, conducting research under Prof. [Daniel Haehn](https://danielhaehn.com/) in the [Machine Psychology Group](https://mpsych.org/).
 
