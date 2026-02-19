@@ -7,7 +7,7 @@ date: 2025-01-01
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 
 <div style="display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap;">
-    <a href="https://arxiv.org/abs/YOUR_ARXIV_ID" target="_blank" 
+    <a href="https://arxiv.org/abs/2411.10322" target="_blank" 
        style="text-decoration: none; background-color: #b31b1b; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s;">
         <i class="fas fa-file-pdf"></i> ArXiv Preprint
     </a>
