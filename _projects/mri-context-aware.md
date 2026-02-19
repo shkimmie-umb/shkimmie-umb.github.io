@@ -69,12 +69,12 @@ categories: [Medical AI, Computer Vision, System Engineering]
         <i class="fas fa-file-pdf"></i> ArXiv Preprint
     </a>
 
-    <a href="https://github.com/shkimmie-umb/plane_classifier" target="_blank" 
+    <a href="https://github.com/shkimmie-umb/plane_classifier" target="_blank"
        style="text-decoration: none; background-color: #24292e; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s;">
         <i class="fab fa-github"></i> View Code
     </a>
 
-    <a href="https://shkimmie-umb.github.io/plane-classifier-app/" target="_blank" 
+    <a href="https://shkimmie-umb.github.io/plane-classifier-app/" target="_blank"
        style="text-decoration: none; background-color: #27ae60; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s;">
         <i class="fas fa-rocket"></i> Live Demo
     </a>

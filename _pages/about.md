@@ -42,27 +42,28 @@ Prior to my doctoral studies, I worked as a **Systems Kernel Engineer** at TmaxO
            style="background-color: #27ae60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.95em; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.3s; display: inline-block;">
             🚀 Try Real-Time Web App
         </a>
-        
+
         <a href="/projects/mri-context-aware"
            style="background-color: #2980b9; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.95em; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.3s; display: inline-block;">
             📊 View Interactive Results
         </a>
     </div>
-</div>
----
+
+## </div>
 
 ### Research & Engineering Focus
 
-* **Volumetric Medical Intelligence**:
-    * [**Context-Aware MRI Analysis:**](/projects/mri-context-aware) Architected the 2.5D CNN framework described above. This work reduced downstream brain tumor misdiagnoses by **33.3%**.
-    * [**Melanoma Detection:**](/projects/melanoma-uncertainty) Developed uncertainty quantification pipelines that reduced diagnostic error rates by **40.5%** (Accepted at **IEEE ISBI 2025**).
+- **Volumetric Medical Intelligence**:
 
-* **Full-Stack Research Deployment:**
-    * I build "Zero-Install" clinical tools. I engineer client-side inference pipelines using **TensorFlow.js, React, and WebAssembly**, enabling complex PyTorch models to run directly in the browser with no server latency.
-    * *Deployment:* [**Real-Time MRI Plane Detector**](https://shkimmie-umb.github.io/plane-classifier-app/).
+  - [**Context-Aware MRI Analysis:**](/projects/mri-context-aware) Architected the 2.5D CNN framework described above. This work reduced downstream brain tumor misdiagnoses by **33.3%**.
+  - [**Melanoma Detection:**](/projects/melanoma-uncertainty) Developed uncertainty quantification pipelines that reduced diagnostic error rates by **40.5%** (Accepted at **IEEE ISBI 2025**).
 
-* **Systems & Kernel Optimization:**
-    * Optimizing high-performance computing tasks using C/C++ and OS internals (Linux/Win32) to ensure cross-platform operability for critical enterprise architecture.
+- **Full-Stack Research Deployment:**
+
+  - I build "Zero-Install" clinical tools. I engineer client-side inference pipelines using **TensorFlow.js, React, and WebAssembly**, enabling complex PyTorch models to run directly in the browser with no server latency.
+  - _Deployment:_ [**Real-Time MRI Plane Detector**](https://shkimmie-umb.github.io/plane-classifier-app/).
+
+- **Systems & Kernel Optimization:** \* Optimizing high-performance computing tasks using C/C++ and OS internals (Linux/Win32) to ensure cross-platform operability for critical enterprise architecture.
 <!-- `I will be presenting my latest work at IEEE ISBI 2025 (Houston, TX). Feel free to connect!` -->
 
 <!-- ---
