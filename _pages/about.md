@@ -53,9 +53,9 @@ Prior to my doctoral studies, I worked as a **Systems Kernel Engineer** at TmaxO
 
 ### Research & Engineering Focus
 
-* [**Volumetric Medical Intelligence**](/projects/mri-context-aware):
-    * **Context-Aware MRI Analysis:** Architected the 2.5D CNN framework described above. This work reduced downstream brain tumor misdiagnoses by **33.3%**.
-    * **Melanoma Detection:** Developed uncertainty quantification pipelines that reduced diagnostic error rates by **40.5%** (Accepted at **IEEE ISBI 2025**).
+* **Volumetric Medical Intelligence**:
+    * [**Context-Aware MRI Analysis:**](/projects/mri-context-aware) Architected the 2.5D CNN framework described above. This work reduced downstream brain tumor misdiagnoses by **33.3%**.
+    * [**Melanoma Detection:**](/projects/melanoma-uncertainty) Developed uncertainty quantification pipelines that reduced diagnostic error rates by **40.5%** (Accepted at **IEEE ISBI 2025**).
 
 * **Full-Stack Research Deployment:**
     * I build "Zero-Install" clinical tools. I engineer client-side inference pipelines using **TensorFlow.js, React, and WebAssembly**, enabling complex PyTorch models to run directly in the browser with no server latency.
