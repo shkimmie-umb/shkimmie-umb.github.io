@@ -14,87 +14,55 @@ selected_papers: true
 social: false
 ---
 
-[[Google Scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[GitHub]](https://github.com/shkimmie-umb?tab=repositories) [[LinkedIn]](https://www.linkedin.com/in/sanghyuk-kim-469687182/)
+[[Google Scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) | [[GitHub]](https://github.com/shkimmie-umb) | [[LinkedIn]](https://www.linkedin.com/in/sanghyuk-kim-469687182/)
 
 I am a **Ph.D. Candidate** in Computer Science at the University of Massachusetts Boston, conducting research under Prof. [Daniel Haehn](https://danielhaehn.com/) in the [Machine Psychology Group](https://mpsych.org/).
 
-My research bridges the gap between **theoretical Medical AI** and **production-grade Systems Engineering**. I specialize in **Volumetric Computer Vision (2.5D/3D)** and **Uncertainty Quantification**, backed by over four years of industrial experience in low-level OS kernel development.
+My research bridges the gap between **theoretical Medical AI** and **production-grade Systems Engineering**. I specialize in **Volumetric Computer Vision (2.5D/3D)**, **Uncertainty Quantification**, and **Hardware-Aware AI Architectures**, backed by over four years of industrial experience in low-level OS kernel development.
 
-Prior to my doctoral studies, I worked as a **Systems Kernel Engineer** at TmaxOS. There, I architected custom graphics kernels and GDI+ interfaces to bridge Linux/Windows ABIs—a rigorous systems background that now underpins my work in building scalable, reliable healthcare AI.
+Prior to my doctoral studies, I worked as a **Systems Kernel Engineer** at TmaxOS. There, I architected custom graphics kernels and GDI+ interfaces to bridge Linux/Windows ABIs—a rigorous systems background that now underpins my work in building scalable, reliable, and lightweight healthcare AI for cloud deployment.
 
 ---
 
-<div style="background-color: #f8f9fa; border-left: 5px solid #2980b9; padding: 20px; margin: 30px 0; border-radius: 4px;">
-    <h3 style="margin-top: 0; color: #2c3e50; font-size: 1.2em;">🌟 Featured Research: Context-Aware 2.5D MRI Model</h3>
+<div style="background-color: #f8f9fa; border-left: 5px solid #2196f3; padding: 25px; margin: 30px 0; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #0d47a1; font-size: 1.3em; display: flex; align-items: center; gap: 10px;">
+        <i class="fas fa-microchip"></i> Featured Architecture: Meta-D (Tₘₐₓ Routing)
+    </h3>
     
-    <p style="margin-bottom: 10px;">
-        <strong>The Problem:</strong> Identifying the anatomical plane (Axial, Coronal, Sagittal) is standard for humans, but AI models fail on <strong>"near-skull" edge slices</strong>. These ambiguous images lack distinct features, leading to corrupted metadata and severe domain shift in large datasets.
+    <p style="margin-bottom: 12px; font-size: 1.05em;">
+        <strong>The Infrastructure Bottleneck:</strong> Standard 3D medical transformers blindly force dense attention across all inputs. When clinical data streams are corrupted or missing, these models waste massive compute interpolating garbage data, resulting in overconfident hallucinations and $O(N^2)$ memory bloat.
     </p>
-    <p style="margin-bottom: 10px;">
-        <strong>Our Solution:</strong> We introduce a <strong>2.5D Context-Aware Classifier</strong>. Instead of heavy 3D networks, we use a lightweight model that samples adjacent slices to learn <em>local anatomical flow</em>. This provides just enough context to resolve ambiguity, achieving <strong>>99% accuracy</strong>.
+    <p style="margin-bottom: 12px; font-size: 1.05em;">
+        <strong>The System Solution:</strong> I engineered <strong>Meta-D</strong>, a deterministic routing framework driven by a Transformer Maximizer ($T_{max}$) module. It calculates signal entropy in real-time, actively severing attention to corrupted modalities and dynamically routing compute only to valid features.
     </p>
-    <p style="margin-bottom: 20px;">
-        <strong>Clinical Impact:</strong> By gating this corrected metadata into a tumor detection pipeline, we reduced clinical misdiagnoses by <strong>33.3%</strong>.
+    <p style="margin-bottom: 25px; font-size: 1.05em;">
+        <strong>Quantitative Impact:</strong> Achieved state-of-the-art multi-modal 3D tumor segmentation (>91% Dice) while drastically reducing the system footprint—<strong>cutting model parameters by 24.1%</strong> and reducing computational complexity to $O(N)$. <em>(Submitted to MICCAI 2026)</em>.
     </p>
 
-    <div style="text-align: center;">
-        <a href="https://shkimmie-umb.github.io/plane-classifier-app/" target="_blank"
-           style="background-color: #27ae60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.95em; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.3s; display: inline-block;">
-            🚀 Try Real-Time Web App
-        </a>
-
-        <a href="/projects/mri-context-aware"
-           style="background-color: #2980b9; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.95em; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.3s; display: inline-block;">
-            📊 View Interactive Results
+    <div style="text-align: left;">
+        <a href="/projects/meta-d"
+           style="background-color: #2196f3; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.95em; box-shadow: 0 4px 10px rgba(33, 150, 243, 0.3); transition: transform 0.2s; display: inline-flex; align-items: center; gap: 8px;">
+            <i class="fas fa-chart-line"></i> View Architecture & Metrics
         </a>
     </div>
+</div>
 
-## </div>
-
-### Research & Engineering Focus
-
-- **Volumetric Medical Intelligence**:
-
-  - [**Context-Aware MRI Analysis:**](/projects/mri-context-aware) Architected the 2.5D CNN framework described above. This work reduced downstream brain tumor misdiagnoses by **33.3%**.
-  - [**Melanoma Detection:**](/projects/melanoma-uncertainty) Developed uncertainty quantification pipelines that reduced diagnostic error rates by **40.5%** (Accepted at **IEEE ISBI 2025**).
-
-- **Full-Stack Research Deployment:**
-
-  - I build "Zero-Install" clinical tools. I engineer client-side inference pipelines using **TensorFlow.js, React, and WebAssembly**, enabling complex PyTorch models to run directly in the browser with no server latency.
-  - _Deployment:_ [**Real-Time MRI Plane Detector**](https://shkimmie-umb.github.io/plane-classifier-app/).
-
-- **Systems & Kernel Optimization:** \* Optimizing high-performance computing tasks using C/C++ and OS internals (Linux/Win32) to ensure cross-platform operability for critical enterprise architecture.
-<!-- `I will be presenting my latest work at IEEE ISBI 2025 (Houston, TX). Feel free to connect!` -->
-
-<!-- ---
-layout: about
-title: About
-permalink: /
-subtitle: Investigating Medical Imaging + Systems Programming
-
-profile:
-  align: right
-  image: shk_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-
-# news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
 ---
 
-[[google scholar]](https://scholar.google.com/citations?user=a-Jr59UAAAAJ&hl=en) [[github]](https://github.com/shkimmie-umb?tab=repositories) [[sanghyuk.kim001@umb.edu]](mailto:sanghyuk.kim001@umb.edu)
+### Additional High-Impact Research
 
-Hello. I am Sanghyuk Kim, a Ph.D. student in Computer Science at the University of Massachusetts Boston, working under the guidance of Prof. [Daniel Haehn](https://danielhaehn.com/) in the Machine Psychology Lab. My research bridges medical imaging and systems programming to drive innovative advancements in healthcare diagnostics.
+<ul style="line-height: 1.8; font-size: 1.05em; color: #2c3e50;">
+  <li style="margin-bottom: 15px;">
+    <a href="/projects/mri-context-aware" style="text-decoration: none; font-weight: 600; color: #2980b9;">Context-Aware 2.5D MRI Plane Classification:</a> Architected a lightweight 2.5D CNN framework that samples adjacent slice context to mathematically resolve ambiguous "near-skull" MRI edge cases. Gating this corrected metadata into downstream networks reduced clinical brain tumor misdiagnoses by <strong>33.3%</strong>.
+  </li>
+  <li style="margin-bottom: 15px;">
+    <a href="/projects/melanoma-uncertainty" style="text-decoration: none; font-weight: 600; color: #2980b9;">Melanoma Detection via Uncertainty Quantification:</a> Developed a 2D Bayesian uncertainty pipeline capable of Out-of-Distribution (OOD) detection. By filtering low-confidence predictions, this architecture slashed critical false-negatives by <strong>40.5%</strong>. <em>(Accepted: IEEE ISBI 2025)</em>.
+  </li>
+  <li>
+    <strong>Zero-Latency Clinical Deployment:</strong> Engineered a client-side JavaScript-injection plugin (Boostlet.js) to execute complex PyTorch inference pipelines directly in the browser, eliminating hospital server latency. <em>(Accepted: IEEE ISBI 2025)</em>.
+  </li>
+</ul>
 
-Before my Ph.D., I gained over four years of professional experience in software engineering, specializing in graphics kernel development for Unix/BSD operating systems. This background now underpins my interdisciplinary focus on leveraging low-level systems software for healthcare applications, notably in melanoma detection.
-
-My work explores the intersection of:
-
-- [**Machine Learning with Uncertainty Quantification**](https://arxiv.org/abs/2411.10322): Developing pipelines that enhance diagnostic reliability in medical imaging. Recent work on melanoma detection achieved a 40.5% reduction in misdiagnoses, presented at [IEEE ISBI 2025](https://biomedicalimaging.org/2025/).
-- **Medical Imaging and AI for Healthcare**: Leveraging systems programming to improve imaging diagnostics and reduce risks associated with AI hallucinations in critical settings.
-- **Kernel-Level Programming**: Creating robust solutions like graphics kernels to improve cross-platform operability and efficiency, now applied to cutting-edge research in healthcare.
-
-Currently, I’m investigating new methods to combine machine learning with systems programming, aiming to enhance medical imaging reliability and expand the frontiers of healthcare technology.
-
-`I'll be attending IEEE ISBI 2025 (Houston, TX, USA). Feel free to connect!` -->
+<div style="margin-top: 30px; text-align: center;">
+    <a href="/projects/" style="color: #555; font-weight: bold; text-decoration: none; border-bottom: 2px solid #ccc; padding-bottom: 2px; transition: color 0.2s;">View All Full Project Breakdowns &rarr;</a>
+</div>
