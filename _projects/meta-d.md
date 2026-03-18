@@ -130,7 +130,7 @@ VANTA.NET({ el: "#vanta-bg", mouseControls: true, touchControls: true, gyroContr
 
 <div style="display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap;">
     <a href="#" target="_blank" class="badge-link" style="background-color: #b31b1b;"><i class="fas fa-file-pdf"></i> ArXiv Preprint</a>
-    <a href="#" target="_blank" class="badge-link" style="background-color: #24292e;"><i class="fab fa-github"></i> System Code (TBD)</a>
+    <!-- <a href="#" target="_blank" class="badge-link" style="background-color: #24292e;"><i class="fab fa-github"></i> System Code (TBD)</a> -->
 </div>
 
 <div class="viz-container">
