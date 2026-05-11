@@ -77,7 +77,7 @@ VANTA.NET({ el: "#vanta-bg", mouseControls: true, touchControls: true, gyroContr
       
       <path d="M 235 95 L 820 95" stroke="#ced4da" stroke-width="1" stroke-dasharray="4"/>
       <text x="235" y="115" font-size="13" font-style="italic" fill="#1b5e20" font-weight="bold">
-        &#9733; Premier IEEE flagship venue specializing in algorithmic breakthroughs for clinical vision & biomedical computation.
+        &#9733; Premier IEEE venue specializing in clinical vision & biomedical computation.
       </text>
     </svg>
   </div>
@@ -255,9 +255,9 @@ VANTA.NET({ el: "#vanta-bg", mouseControls: true, touchControls: true, gyroContr
         <rect x="20" y="25" width="150" height="50" rx="6" fill="#ff9800"/>
         <text x="95" y="55" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Edge Detector</text>
 
-        <text x="195" y="42" font-size="15" font-weight="bold" fill="#e65100">Instantaneous Edge Computing Execution Engine &#128279;</text>
+        <text x="195" y="42" font-size="15" font-weight="bold" fill="#e65100">Instantaneous Melanoma Detector via Edge Computing &#128279;</text>
         <text x="195" y="65" font-size="13" fill="#495057">
-          &#10003; Processes inference natively inside local browser memory via direct client-side execution—guaranteeing strict patient privacy via zero file uploads.
+          &#10003; Processes inference natively inside local browser via zero file uploads.
         </text>
       </svg>
     </div>
