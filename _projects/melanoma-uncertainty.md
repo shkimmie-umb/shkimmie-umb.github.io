@@ -48,7 +48,7 @@ categories: [Medical AI, Computer Vision, Calibration]
 </style>
 
 <div id="vanta-bg" class="hero-container">
-  <div class="hero-title">Melanoma Detection via Uncertainty Quantification</div>
+  <div class="hero-title">Melanoma Detection with Uncertainty Quantification</div>
 </div>
 
 <script>
